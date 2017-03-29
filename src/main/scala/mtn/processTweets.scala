@@ -4,7 +4,7 @@ import org.apache.spark.SparkConf
 import org.apache.spark.SparkContext
 import org.elasticsearch.spark._
 import java.util.Date
-
+//
 object processTweets {
   case class Person(first_name: String, last_name: String, age: Int)
   //case class Social(id: Long, name: String, post: String, posturl: String, mediaTye: String, published_date: String, zensocial_sentiment: Int, zensocial_kloutscore: Double, imageUrl: String, zensocial_classification: String, retweet: Int, favorite: String, socialId: Int)
